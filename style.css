@@ -1,4 +1,4 @@
-/* Hero Section Styling */
+/* ngedit background */
 /* #hero {
     background-image: url('/full/path/to/sma103.jpg');
     background-size: cover;
@@ -9,7 +9,7 @@
     padding: 50px 0;
 } */
 
-/* Reset and Basic Styling */
+/* buat reset */
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +23,11 @@ body {
     color: #333;
 }
 
-/* Header and Navbar */
+.logo {
+    width: 30px;
+}
+
+/* header */
 header {
     background-color: #002855;
     color: #fff;
