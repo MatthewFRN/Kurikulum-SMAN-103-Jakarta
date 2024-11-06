@@ -1,5 +1,5 @@
 /* Hero Section Styling */
-#hero {
+/* #hero {
     background-image: url('/full/path/to/sma103.jpg');
     background-size: cover;
     background-position: center;
@@ -7,7 +7,7 @@
     color: white;
     text-align: center;
     padding: 50px 0;
-}
+} */
 
 /* Reset and Basic Styling */
 * {
@@ -22,18 +22,6 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
-
-.pppp {
-    color: #fff;
-   -webkit-text-stroke-width: 0.5px;
-   -webkit-text-stroke-color: #000000;
-  
-}
-
-.logo {
-    width: 30px;
-}
-
 
 /* Header and Navbar */
 header {
@@ -116,7 +104,7 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 1rem;
 }
-g
+
 .content-section p {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -149,4 +137,17 @@ footer {
     .content-section {
         padding: 1.5rem;
     }
+}
+
+@keyframes fade { 
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+#announcement {
+    color: aliceblue;
+    opacity: 0; 
+    animation: fade 3s ease-in-out;
 }
