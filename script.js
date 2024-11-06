@@ -25,10 +25,10 @@ document.querySelectorAll('nav a').forEach(anchor => {
 
 function switchSection(sectionId) {
     document.querySelectorAll(".content-section").forEach(section => {
-        section.classList.add("hidden");  // Hide all sections
+        section.classList.add("hidden");
         section.classList.remove("active");
     });
-    document.getElementById(sectionId).classList.remove("hidden"); // Show the selected section
+    document.getElementById(sectionId).classList.remove("hidden"); 
     document.getElementById(sectionId).classList.add("active");
 }
 document.addEventListener("DOMContentLoaded", function() {
@@ -39,15 +39,14 @@ document.addEventListener("DOMContentLoaded", function() {
             event.preventDefault();
             const sectionId = link.getAttribute("href").substring(1);
             
-            // Add a small animation to the link when clicked
+       
             link.classList.add("clicked");
             setTimeout(() => link.classList.remove("clicked"), 200);
 
-            // Switch to the selected section
             switchSection(sectionId);
         });
     });
 
-    // Set default section to be visible
+   
     switchSection("tentang");
 });
