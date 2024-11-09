@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelulusan - SMAN 103 Jakarta</title>
+    <title>Pengumuman Kelulusan dan Pencarian Universitas - SMAN 103 Jakarta</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1><img class="logo" src="logo.png"> Kurikulum SMAN 103 Jakarta</h1>
+            <h1><img class="logo" src="logo.png">Kurikulum SMAN 103 Jakarta</h1>
             <ul>
                 <li><a href="index.html">Tentang Kita</a></li>
                 <li><a href="administrasi.html">Kelulusan Siswa</a></li>
@@ -21,12 +21,29 @@
     </header>
 
     <section class="content-section">
-        <h2>Administrasi</h2>
-        <p>SMAN 103 Jakarta menyediakan layanan administrasi yang efisien untuk mendukung proses belajar mengajar. Kami juga menyediakan prosedur pendaftaran siswa baru, informasi biaya, dan persyaratan dokumen yang diperlukan bagi calon siswa.</p>
+        <h2>Pengumuman Kelulusan Kelas 12</h2>
+        <table id="graduationTable">
+            <thead>
+                <tr>
+                    <th>Nama Siswa</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+        <tbody> 
+        </tbody>
+        </table>
+    </section>
+
+    <section class="content-section search-section">
+        <h2>Cari Informasi Universitas Impian</h2>
+        <input type="text" id="searchInput" placeholder="ex:Universitas Indonesia...">
+        <button onclick="displayUniversityInfo()">Cari</button>
+        <div id="universityInfo"></div>
     </section>
 
     <footer>
         <p>&copy; 2024 SMAN 103 Jakarta. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
