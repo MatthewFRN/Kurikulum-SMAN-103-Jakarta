@@ -155,3 +155,97 @@ footer {
     opacity: 0; 
     animation: fade 3s ease-in-out;
 }
+
+Gaya untuk tabel kelulusan */
+#graduationTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+#graduationTable th, #graduationTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#graduationTable th {
+    background-color: #002855;
+    color: white;
+}
+
+/* Gaya untuk pencarian universitas */
+.search-section {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.search-section input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.search-section button {
+    padding: 0.5rem;
+}
+
+#searchResult {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Gaya untuk tampilan informasi universitas */
+#universityInfo {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#universityInfo h3 {
+    color: #002855;
+    margin-bottom: 0.5rem;
+}
+
+#universityInfo p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Gaya untuk tabel kelulusan */
+#graduationTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+#graduationTable th, #graduationTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#graduationTable th {
+    background-color: #002855;
+    color: white;
+}
+
+/* Gaya untuk tampilan informasi universitas */
+#universityInfo {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#universityInfo h3 {
+    color: #002855;
+    margin-bottom: 0.5rem;
+}
+
+#universityInfo p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
