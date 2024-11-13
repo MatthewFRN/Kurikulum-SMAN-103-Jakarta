@@ -62,13 +62,12 @@ document.addEventListener("DOMContentLoaded", function() {
             website: "<a href='https://www.unpad.ac.id/'> https://www.unpad.ac.id/ </a>",
             description: "Bentuk sumbangsih para penerus bangsa atas amanah yang ditinggalkan para pejuang kemerdekaan"
         },
-           { 
+        { 
             name: "Universitas Negeri Jakarta",
             passingGrade: "581,74",
             competitiveness: "Rendah",
             accreditation: "A",
-            faculties: ["Fakultas Matematika dan IPA. Biologi", "Fakultas Teknik, Keguruan & Pendidikan", "Fakultas Ilmu Pendidikan, Pendidikan Guru Sekolah Dasar", "Fakultas Bahasa dan Seni, Tari", "Fakultas Ilmu Sosial, Sejarah", "Fakultas Ilmu Olahraga, Pendidikan Olahraga", "Fakultas Ekonomi, Ilmu Ekonomi", "Fakultas Pendidikan Psikologi, Psikologi
-"],
+            faculties: ["Fakultas Matematika dan IPA. Biologi", "Fakultas Teknik, Keguruan & Pendidikan", "Fakultas Ilmu Pendidikan, Pendidikan Guru Sekolah Dasar", "Fakultas Bahasa dan Seni, Tari", "Fakultas Ilmu Sosial, Sejarah", "Fakultas Ilmu Olahraga, Pendidikan Olahraga", "Fakultas Ekonomi, Ilmu Ekonomi", "Fakultas Pendidikan Psikologi, Psikologi"],
             website: "<a href='https://www.unj.ac.id/'> https://www.unj.ac.id/ </a>",
             description: "Universitas Negeri Jakarta (disingkat sebagai UNJ) adalah perguruan tinggi negeri yang terdapat di Kota Jakarta, Indonesia yang didirikan pada tahun 1964."
         },
