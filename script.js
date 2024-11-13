@@ -72,3 +72,46 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 });
+
+function hitungPersentase() {
+    // Mengambil nilai dari input form
+    let fisika = parseFloat(document.getElementById("fisika").value) || 0;
+    let kimia = parseFloat(document.getElementById("kimia").value) || 0;
+    let matematika = parseFloat(document.getElementById("matematika").value) || 0;
+    let biologi = parseFloat(document.getElementById("biologi").value) || 0;
+    let informatika = parseFloat(document.getElementById("informatika").value) || 0;
+    let input = document.getElementById("nama");
+    let inputValue = input.value ;
+    let sosiologi = parseFloat(document.getElementById("sosiologi").value) || 0;
+    let geografi = parseFloat(document.getElementById("geografi").value) || 0;
+    let ekonomi = parseFloat(document.getElementById("ekonomi").value) || 0;
+
+    // Menghitung rata-rata nilai MIPA dan IPS
+    let rataF1 = (fisika + kimia + matematika + informatika) / 4;
+    let rataF2 = (fisika + kimia + matematika + biologi) / 4;
+    let rataF3 = (informatika + geografi + biologi + ekonomi) / 4;
+    let rataF4 = (informatika + sosiologi + biologi + ekonomi) / 4;
+    let rataF5 = (informatika + sosiologi + ekonomi) / 3;
+    let rataF6 = (informatika + ekonomi + sosiologi) / 3;
+    let rataF7 = (sosiologi + geografi + ekonomi) / 3;
+
+    // Menghitung persentase nilai MIPA dan IPS
+    let F1 = (rataF1 / 100) * 100;
+    let F2 = (rataF2 / 100) * 100;
+    let F3 = (rataF3 / 100) * 100;
+    let F4 = (rataF4 / 100) * 100;
+    let F5 = (rataF5 / 100) * 100;
+    let F6 = (rataF6 / 100) * 100;
+    let F7 = (rataF7 / 100) * 100;
+
+
+    // Menampilkan hasil perhitungan
+    document.getElementById("nama1").innerText = "Nama Siswa: " + inputValue
+    document.getElementById("F1").innerText = "F1: " + F1.toFixed(2) + "%";
+    document.getElementById("F2").innerText = "F2: " + F2.toFixed(2) + "%";
+    document.getElementById("F3").innerText = "F3: " + F3.toFixed(2) + "%";
+    document.getElementById("F4").innerText = "F4: " + F4.toFixed(2) + "%";
+    document.getElementById("F5").innerText = "F5: " + F5.toFixed(2) + "%";
+    document.getElementById("F6").innerText = "F6: " + F6.toFixed(2) + "%";
+    document.getElementById("F7").innerText = "F7: " + F7.toFixed(2) + "%";
+}
