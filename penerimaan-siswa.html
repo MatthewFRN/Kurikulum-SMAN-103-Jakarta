@@ -24,9 +24,34 @@
         <p>Informasi tentang prosedur pendaftaran siswa baru, termasuk persyaratan, biaya, dan jadwal pendaftaran, tersedia di sini.</p>
     </section>
 
-    <section class="content-section search-section">
+     <section class="content-section search-section">
     <h1>Form Nilai Siswa</h1>
-    <h2>Persentase Kecocokan Kelas:</h2>
+
+    <form id="formNilai" onsubmit="event.preventDefault(); hitungPersentase();">
+        <label for="nama">Nama Siswa:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <h3>Input Nilai:</h3>
+        <label for="fisika">Fisika:</label>
+        <input type="number" id="fisika" name="fisika" min="0" max="100"><br><br>
+        <label for="kimia">Kimia:</label>
+        <input type="number" id="kimia" name="kimia" min="0" max="100"><br><br>
+        <label for="matematika">Matematika:</label>
+        <input type="number" id="matematika" name="matematika" min="0" max="100"><br><br>
+        <label for="biologi">Biologi:</label>
+        <input type="number" id="biologi" name="biologi" min="0" max="100"><br><br>
+        <label for="informatika">Informatika:</label>
+        <input type="number" id="informatika" name="informatika" min="0" max="100"><br><br>
+        <label for="sosiologi">Sosiologi:</label>
+        <input type="number" id="sosiologi" name="sosiologi" min="0" max="100"><br><br>
+        <label for="geografi">Geografi:</label>
+        <input type="number" id="geografi" name="geografi" min="0" max="100"><br><br>
+        <label for="ekonomi">Ekonomi:</label>
+        <input type="number" id="ekonomi" name="ekonomi" min="0" max="100"><br><br>
+
+        <button type="submit">Hitung Persentase</button>
+        
+        <h2>Persentase Kecocokan Kelas:</h2>
     <p id="nama1"></p>
     <p id="F1"></p>
     <p id="F2"></p>
@@ -36,7 +61,7 @@
     <p id="F6"></p>
     <p id="F7"></p>
     </section>
-
+    </form>
     <footer>
         <p>&copy; 2024 SMAN 103 Jakarta. All rights reserved.</p>
     </footer>
