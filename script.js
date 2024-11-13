@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", function() {
             competitiveness: "Sangat Tinggi",
             accreditation: "Unggul",
             faculties: ["Fakultas Teknologi Industri", "Fakultas Teknik Mesin dan Dirgantara", "Sekolah Bisnis dan Manajemen"],
-            description: "Dikenal sebagai pusat pendidikan teknik terbaik di Indonesia."
+            description: "Dikenal sebagai pusat pendidikan teknik terbaik di Indonesia.",
+            website: "<a href='https://itb.ac.id/'> https://itb.ac.id/ </a>"
         },
         {
             name: "Universitas Gadjah Mada",
@@ -41,7 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
             competitiveness: "Tinggi",
             accreditation: "A",
             faculties: ["Fakultas Kedokteran", "Fakultas Ilmu Sosial dan Ilmu Politik", "Fakultas Pertanian"],
-            description: "Salah satu universitas tertua dan terbesar di Indonesia."
+            description: "Salah satu universitas tertua dan terbesar di Indonesia.",
+            website: "<a href='https://ugm.ac.id/id/'> https://ugm.ac.id/id/ </a>"
         },
         {
             name: "Institut Teknologi Sepuluh November",
@@ -49,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
             competitiveness: "Tinggi",
             accreditation: "A",
             faculties: ["Fakultas Kedokteran", "Fakultas Ilmu Sosial dan Ilmu Politik", "Fakultas Pertanian"],
+            website: "<a href='https://www.its.ac.id/id/beranda/'> https://www.its.ac.id/id/beranda/ </a>"
         }
     ];
 
