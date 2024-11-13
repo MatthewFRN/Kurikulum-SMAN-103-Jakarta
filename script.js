@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function hitungPersentase() {
-    // Mengambil nilai dari input form
+    //  nilai dari input form
     let fisika = parseFloat(document.getElementById("fisika").value) || 0;
     let kimia = parseFloat(document.getElementById("kimia").value) || 0;
     let matematika = parseFloat(document.getElementById("matematika").value) || 0;
@@ -86,7 +86,7 @@ function hitungPersentase() {
     let geografi = parseFloat(document.getElementById("geografi").value) || 0;
     let ekonomi = parseFloat(document.getElementById("ekonomi").value) || 0;
 
-    // Menghitung rata-rata nilai MIPA dan IPS
+    //  rata-rata nilai
     let rataF1 = (fisika + kimia + matematika + informatika) / 4;
     let rataF2 = (fisika + kimia + matematika + biologi) / 4;
     let rataF3 = (informatika + geografi + biologi + ekonomi) / 4;
@@ -95,7 +95,7 @@ function hitungPersentase() {
     let rataF6 = (informatika + ekonomi + sosiologi) / 3;
     let rataF7 = (sosiologi + geografi + ekonomi) / 3;
 
-    // Menghitung persentase nilai MIPA dan IPS
+    //  persentase kelas
     let F1 = (rataF1 / 100) * 100;
     let F2 = (rataF2 / 100) * 100;
     let F3 = (rataF3 / 100) * 100;
@@ -105,7 +105,7 @@ function hitungPersentase() {
     let F7 = (rataF7 / 100) * 100;
 
 
-    // Menampilkan hasil perhitungan
+    //  persentase
     document.getElementById("nama1").innerText = "Nama Siswa: " + inputValue
     document.getElementById("F1").innerText = "F1: " + F1.toFixed(2) + "%";
     document.getElementById("F2").innerText = "F2: " + F2.toFixed(2) + "%";
