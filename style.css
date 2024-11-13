@@ -249,3 +249,7 @@ Gaya untuk tabel kelulusan */
     margin-bottom: 0.5rem;
     font-size: 1rem;
 }
+
+.neighbors {
+    text-align: center;
+}
