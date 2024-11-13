@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
             accreditation: "A",
             faculties: ["Fakultas Hukum", "Fakultas Peternakan dan Pertanian", "Fakultas Psikologi", "Fakultas Ekonomika dan Bisnis", "Fakultas Ilmu Budaya", "Fakultas Perikanan dan Ilmu Kelautan", "Fakultas Teknik", "Fakultas Ilmu Sosial dan Ilmu Politik", "Fakultas Sains dan Matematika", "Fakultas Kedokteran"],
             website: "<a href='https://www.unpad.ac.id/'> https://www.unpad.ac.id/ </a>",
-            description: "Bentuk sumbangsih para penerus bangsa atas amanah yang ditinggalkan para pejuang kemerdekaan",
+            description: "Bentuk sumbangsih para penerus bangsa atas amanah yang ditinggalkan para pejuang kemerdekaan"
         },
            { 
             name: "Universitas Negeri Jakarta",
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
             faculties: ["Fakultas Matematika dan IPA. Biologi", "Fakultas Teknik, Keguruan & Pendidikan", "Fakultas Ilmu Pendidikan, Pendidikan Guru Sekolah Dasar", "Fakultas Bahasa dan Seni, Tari", "Fakultas Ilmu Sosial, Sejarah", "Fakultas Ilmu Olahraga, Pendidikan Olahraga", "Fakultas Ekonomi, Ilmu Ekonomi", "Fakultas Pendidikan Psikologi, Psikologi
 "],
             website: "<a href='https://www.unj.ac.id/'> https://www.unj.ac.id/ </a>",
-            description: "Universitas Negeri Jakarta (disingkat sebagai UNJ) adalah perguruan tinggi negeri yang terdapat di Kota Jakarta, Indonesia yang didirikan pada tahun 1964.",
+            description: "Universitas Negeri Jakarta (disingkat sebagai UNJ) adalah perguruan tinggi negeri yang terdapat di Kota Jakarta, Indonesia yang didirikan pada tahun 1964."
         },
 
            { 
@@ -80,9 +80,8 @@ document.addEventListener("DOMContentLoaded", function() {
             accreditation: "A",
             faculties: ["Fakultas Hukum", "Fakultas Pertanian", "Fakultas Peternakan", "Fakultas Kehutanan dan Lingkungan", "Fakultas Matematika dan Ilmu Pengetahuan Alam", "Fakultas Perikanan dan Ilmu Kelautan", "Fakultas Ekonomi dan Manajemen", "Fakultas Ekologi Manusia"],
             website: "<a href='https://www.ipb.ac.id/beranda/'> https://www.ipb.ac.id/beranda/ </a>",
-            description: " Institut Pertanian Bogor (IPB) merupakan sebuah perguruan tinggi negeri yang didirikan tanggal 1 September 1963 di Bogor berdasarkan keputusan Menteri Perguruan Tinggi dan Ilmu Pengetahuan (PTIP) No. 92/1963 yang kemudian disahkan oleh Presiden RI Pertama.",
+            description: " Institut Pertanian Bogor (IPB) merupakan sebuah perguruan tinggi negeri yang didirikan tanggal 1 September 1963 di Bogor berdasarkan keputusan Menteri Perguruan Tinggi dan Ilmu Pengetahuan (PTIP) No. 92/1963 yang kemudian disahkan oleh Presiden RI Pertama."
         },
-
 
     ];
 
