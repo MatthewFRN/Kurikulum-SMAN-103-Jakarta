@@ -73,6 +73,16 @@ document.addEventListener("DOMContentLoaded", function() {
             description: "Universitas Negeri Jakarta (disingkat sebagai UNJ) adalah perguruan tinggi negeri yang terdapat di Kota Jakarta, Indonesia yang didirikan pada tahun 1964.",
         },
 
+           { 
+            name: " Institut Pertanian Bogor",
+            passingGrade: "648,15",
+            competitiveness: "Menengah",
+            accreditation: "A",
+            faculties: ["Fakultas Hukum", "Fakultas Pertanian", "Fakultas Peternakan", "Fakultas Kehutanan dan Lingkungan", "Fakultas Matematika dan Ilmu Pengetahuan Alam", "Fakultas Perikanan dan Ilmu Kelautan", "Fakultas Ekonomi dan Manajemen", "Fakultas Ekologi Manusia"],
+            website: "<a href='https://www.ipb.ac.id/beranda/'> https://www.ipb.ac.id/beranda/ </a>",
+            description: " Institut Pertanian Bogor (IPB) merupakan sebuah perguruan tinggi negeri yang didirikan tanggal 1 September 1963 di Bogor berdasarkan keputusan Menteri Perguruan Tinggi dan Ilmu Pengetahuan (PTIP) No. 92/1963 yang kemudian disahkan oleh Presiden RI Pertama.",
+        },
+
 
     ];
 
