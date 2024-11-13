@@ -251,5 +251,11 @@ Gaya untuk tabel kelulusan */
 }
 
 .neighbors {
-    text-align: center;
+    display: inline-block; 
+    background-color: #f9f9f9; 
+    border: 2px solid #ccc;
+    border-radius: 15px; 
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
