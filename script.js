@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
             competitiveness: "Tinggi",
             accreditation: "A",
             faculties: ["Fakultas Kedokteran", "Fakultas Hukum", "Fakultas Teknik", "Fakultas Ekonomi"],
-            description: "Universitas terkemuka di Indonesia dengan program studi yang unggul."
+            description: "Universitas terkemuka di Indonesia dengan program studi yang unggul.",
+            website: "<a href='https://www.ui.ac.id/en/universitas-indonesia/'> https://www.ui.ac.id/en/universitas-indonesia/ </a>"
         },
         {
             name: "Institut Teknologi Bandung",
@@ -66,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p><strong>Akreditasi:</strong> ${university.accreditation}</p>
                 <p><strong>Fakultas:</strong> ${university.faculties.join(", ")}</p>
                 <p><strong>Deskripsi:</strong> ${university.description}</p>
+                <p><strong>Website: </strong> ${university.website}</p>
             `;
         } else {
             infoContainer.textContent = "Universitas tidak ditemukan.";
