@@ -113,6 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p><strong>Akreditasi:</strong> ${university.accreditation}</p>
                 <p><strong>Fakultas:</strong> ${university.faculties.join(", ")}</p>
                 <p><strong>Deskripsi:</strong> ${university.description}</p>
+                <p><strong>Website:</strong> %{university.website}</p>
             `;
         } else {
             infoContainer.textContent = "Universitas tidak ditemukan.";
